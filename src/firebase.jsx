@@ -3,12 +3,12 @@ import { getFirestore, doc, getDoc } from "firebase/firestore";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.AIzaSyDdWJSja8crG0-bHt-X-_H7vLylVtIklEs,
-  authDomain: process.env.pistoncult-425db.firebaseapp.com,
-  projectId: process.env.pistoncult-425db,
-  storageBucket: process.env.pistoncult-425db.firebasestorage.app,
-  messagingSenderId: process.env.689163039493,
-  appId: process.env.1:689163039493:web:ab77ead4401ee4810ebd6c,
+  apiKey: "AIzaSyDdWJSja8crG0-bHt-X-_H7vLylVtIklEs",
+  authDomain: "pistoncult-425db.firebaseapp.com",
+  projectId: "pistoncult-425db",
+  storageBucket: "pistoncult-425db.firebasestorage.app",
+  messagingSenderId: "689163039493",
+  appId: "1:689163039493:web:ab77ead4401ee4810ebd6c",
 };
 
 const app = initializeApp(firebaseConfig);
