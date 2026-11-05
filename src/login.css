@@ -1,0 +1,25 @@
+.piston-container {
+  min-height: 100vh;
+  background-color: #07090d;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.piston-grid {
+  background-image: linear-gradient(to right, #1f293d0a 1px, transparent 1px),
+                    linear-gradient(to bottom, #1f293d0a 1px, transparent 1px);
+  background-size: 4rem 4rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
