@@ -2,16 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, doc, getDoc } from "firebase/firestore";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
-
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: process.env.AIzaSyDdWJSja8crG0-bHt-X-_H7vLylVtIklEs,
+  authDomain: process.env.pistoncult-425db.firebaseapp.com,
+  projectId: process.env.pistoncult-425db,
+  storageBucket: process.env.pistoncult-425db.firebasestorage.app,
+  messagingSenderId: process.env.689163039493,
+  appId: process.env.1:689163039493:web:ab77ead4401ee4810ebd6c,
 };
 
 const app = initializeApp(firebaseConfig);
